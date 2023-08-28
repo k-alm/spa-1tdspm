@@ -10,7 +10,7 @@ export default function App(){
         
         {/* Vamos criar uma seção com uma div com 3 <p></p> e estes <p></p> vão ter 3 linhas de lorem, abaixo dos
         <p></p> uma imagem */}
-        <Header></Header>
+        
         <section>
         <div>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus blanditiis autem laborum sit voluptatem quia impedit. Voluptatem optio, dicta sint sunt illum suscipit iste vitae perferendis dolores est. Incidunt, deserunt?</p>
