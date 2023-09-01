@@ -1,5 +1,10 @@
 export default function Produtos(){
+    document.title = "Produto";
+
     return(
-        <div>Produtos</div>
+        <div>
+            <h1>Produtos</h1>
+        </div>
+        
     )
 }

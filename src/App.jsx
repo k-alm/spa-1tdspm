@@ -1,7 +1,8 @@
 // Importando dependências e/ou arquivos que vamos utilizar e/ou referenciar
-import Header from "./components/header"
+import Header from "./components/Header"
 import Footer from "./components/footer"
 import Main from "./components/Main"
+import { Outlet } from "react-router-dom"
 
 export default function App(){
   return(
@@ -16,6 +17,8 @@ export default function App(){
         <p></p> uma imagem */}
 
         <Main></Main>
+
+        <Outlet></Outlet>
         
         {/* Vamos criar um rodapé com uma div, uma lista com 3 itens com links para redes sociais e abaixo 
         um <p></p> com o texto e código do símbolo de direitos reservados */}
