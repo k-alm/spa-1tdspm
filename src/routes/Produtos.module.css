@@ -1,0 +1,24 @@
+.tblEstilo{
+    border-collapse: collapse;
+    border: 2px solid #ccc;
+    margin: 0 auto;
+
+    & th{
+        background-color: bisque;
+        border: 2px solid #ccc;
+        text-align: center;
+    }
+
+    .tblLine{
+        background-color: #e1e1e1;
+
+        &:hover{
+            background-color: #6e6a6a;
+        }
+    }
+
+    & td{
+        border: 2px solid #ccc;
+
+    }
+}
