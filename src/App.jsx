@@ -1,7 +1,7 @@
 // Importando dependências e/ou arquivos que vamos utilizar e/ou referenciar
 import Conteudo from "./components/Conteudo"
-import Footer from "./components/footer"
-import Header from "./components/header"
+import Header from "./components/Header"
+import Footer from "./components/Footer"
 import { Outlet } from "react-router-dom"
 
 export default function App(){
