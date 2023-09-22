@@ -10,6 +10,7 @@ export default function Header(){
                 <li><Link to={"/"}><H></H></Link></li>
                 <li><Link to={"/produtos"}>Produtos</Link></li>
                 <li><Link to={"/editar/produtos/1"}>Editar produtos</Link></li>
+                <li><Link to={"/produtos"}>CADASTRAR PRODUTO</Link></li>
             </ul>
             </header>
         </>
