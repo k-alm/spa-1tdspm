@@ -3,11 +3,11 @@ import Conteudo from "./components/Conteudo"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 import { Outlet } from "react-router-dom"
+import styles from "./App.module.css"
 
 export default function App(){
   return(
-    <>
-      <div className="container">
+      <div className={styles.container}>
         {/*Isso é um comentário*/}
         {/* Vamos criar um cabeçalho com um header, um h1 com um título e uma lista com 3 itens com link */}
         
@@ -25,7 +25,6 @@ export default function App(){
         <Footer/>
 
       </div>
-    </>
   )
     
   
