@@ -1,0 +1,19 @@
+$alinhamentoAoCentro:0 auto;
+$displayPadrao: block;
+
+
+@mixin estiloBtn($borda, $background, $color){
+    border: $borda;
+    background-color: $background;
+    color: $color;
+    margin: 0 auto 5% auto;
+    display: $displayPadrao;
+    width: 30%;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+div button{
+    @include estiloBtn(2px solid #ccc, #474466, #FFF)
+}
