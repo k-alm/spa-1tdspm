@@ -35,18 +35,18 @@ export default function ExcluirProduto() {
   };
 
   return (
-    
-      <div className={classes.container}>
-        <h1>Excluir Produto</h1>
+
+    <div className={classes.container}>
+      <h1>Excluir Produto</h1>
+      <div>
+        <p>Nome : {produto.nome}</p>
+        <p>Desc : {produto.desc}</p>
+        <p>valor : {produto.valor}</p>
         <div>
-            <p>Nome : {produto.nome}</p>
-            <p>Desc : {produto.desc}</p>
-            <p>valor : {produto.valor}</p>
-            <div>
-                <button onClick={handleExclude}>EXCLUIR</button>
-                <button onClick={()=> navigate("/produtos")}>CANCELAR</button>
-            </div>
+          <button onClick={handleExclude}>EXCLUIR</button>
+          <button onClick={() => navigate("/produtos")}>CANCELAR</button>
         </div>
       </div>
-      );
+    </div>
+  );
 }

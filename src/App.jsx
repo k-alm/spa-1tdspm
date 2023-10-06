@@ -1,9 +1,9 @@
 // Importando dependências e/ou arquivos que vamos utilizar e/ou referenciar
 import Conteudo from "./components/Conteudo"
-import Header from "./components/Header"
 import Footer from "./components/Footer"
 import { Outlet } from "react-router-dom"
 import styles from "./App.module.css"
+import Header from "./components/Header/Header"
 
 export default function App(){
   return(

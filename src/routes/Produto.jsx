@@ -33,7 +33,7 @@ export default function Produtos() {
 
       {open ? <ModalInserir open={open} setOpen={setOpen} /> : ""}
 
-      <button onClick={() => setOpen(true)}>OPEN-MODAL</button>
+      <button onClick={() => setOpen(true)}>CADASTRAR PRODUTO</button>
 
       <table className={style.tblEstilo}>
         <thead>
@@ -67,3 +67,30 @@ export default function Produtos() {
     </div>
   )
 }
+
+//Exemplo de useEfect
+// useEffect(()=>{
+//   console.log("Este useEffect renderiza sempre! " + counter);
+// });
+
+// const [counter, setCounter] = useState(0);
+
+// const [listaProdutosLocal, setListaProdutosLocal] = useState([{}]);
+
+// useEffect(()=>{
+//   console.log("Este useEffect renderiza apenas uma vez!");
+//   setListaProdutosLocal(ListaProdutos);
+// },[ ]);
+
+// const [counter2, setCounter2] = useState(0)
+
+// useEffect(()=>{
+//   console.log("Este useEffect renderiza sempre que o objeto/variável ou elemento que está sendo monitorado no array de dependências sofra alguma atualização.");
+// },[counter2]);
+
+// <div>
+// <button onClick={()=> setCounter(counter + 1)}>COUNTER - {counter}</button>
+// </div>
+// <div>
+// <button onClick={()=> setCounter2(counter2 + 1)}>COUNTER2 - {counter2}</button>
+// </div>
